@@ -14,8 +14,7 @@ echo "\033[1;32m[Builder]\033[0m Input \033[1;36m./executable/exp/openCVFilter\0
 
 
 
-g++ src/deploy/capture.cpp src/utils/utils.cpp -o executable/deploy/capture  -O3 -w -Iinclude `pkg-config --cflags --libs openc
-v4`
+g++ src/deploy/capture.cpp src/utils/utils.cpp -o executable/deploy/capture  -O3 -w -Iinclude `pkg-config --cflags --libs opencv4`
 echo "\033[1;32m[Builder]\033[0m Building Capture was finished!"
 echo "\033[1;32m[Builder]\033[0m Input \033[1;36m./executable/deploy/capture \033[0m to run it."
 
