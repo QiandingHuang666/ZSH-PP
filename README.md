@@ -25,9 +25,9 @@
 
 | 项目分工 | 人员 | 相关文件 |
 | :---: | :---: | :---: |
-|基于`PThread`的矩阵运算<br>和卷积算法|沈军豪| [conv_cpu.cpp](src/core/conv_cpu.cpp)|
-|基于`CUDA`的矩阵运算<br>和卷积算法|朱道远| [conv_gpu.cu](src/core/conv_gpu.cu) |
-|上层应用（图像滤波）<br>项目整合|黄前顶| 其余内容 |
+|基于`PThread`的矩阵运算<br>和卷积算法|SJH| [conv_cpu.cpp](src/core/conv_cpu.cpp)|
+|基于`CUDA`的矩阵运算<br>和卷积算法|ZDY| [conv_gpu.cu](src/core/conv_gpu.cu) |
+|上层应用（图像滤波）<br>项目整合|HQD| 其余内容 |
 
 
 ## 硬件特性
